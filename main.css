@@ -117,7 +117,10 @@ input[type=text]{
     margin-top: 20px;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 400px){
+    .top-info{
+        margin-top: 0;
+    }
     .info{
         margin-left: 15px;
     }
@@ -132,7 +135,7 @@ input[type=text]{
     .my-pic img{
         height: 230px;
         width: 150px;
-        margin: 100px 0 0 20px ;
+        margin: 100px 0 0 10px ;
         
         border-radius: 10px;
     }
@@ -141,6 +144,7 @@ input[type=text]{
     }
     .personal-info{
         font-size: 20px;
+        
     }
     .profile{
         grid-template-columns: 1fr 1fr;
@@ -148,11 +152,14 @@ input[type=text]{
     }
     .profile h3{
         font-size: 18px;
+        font-weight: 400;
     }
     .profile p{
         font-size: 12px;
+        font-weight: 100;
     }
     input[type=text]{
         width: 50%;
+        padding-left: 5px;
     }
 }
