@@ -27,7 +27,7 @@
     font-weight: 100;
 }
 .info p{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 100;
     margin-top: 30px;
     line-height: 30px;
@@ -71,6 +71,10 @@
 }
 .profile h3{
     font-size: 24px;
+   
+    
+}
+.profile p{
     font-weight: 100;
     
 }
@@ -117,7 +121,7 @@ input[type=text]{
     margin-top: 20px;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
     .top-info{
         margin-top: 0;
     }
@@ -126,17 +130,19 @@ input[type=text]{
     }
     .info h2{
         font-size: 30px;
+        padding-top: 30px;
     }
     .info p{
         font-size: 12px;
         font-weight: 100;
         line-height: 15px;
+        width: 200px;
+        /* text-align: justify; */
     }
     .my-pic img{
-        height: 230px;
+        height: 200px;
         width: 150px;
-        margin: 100px 0 0 10px ;
-        
+        margin: 120px 0 0 20px ;     
         border-radius: 10px;
     }
     .top-bg{
@@ -159,7 +165,7 @@ input[type=text]{
         font-weight: 100;
     }
     input[type=text]{
-        width: 50%;
+        width: 55%;
         padding-left: 5px;
     }
 }
