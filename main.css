@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.top-bg{
+    background-image: url("./assets/images/bg-one.jpg");
+    background-size: 100% 100%;
+    margin: 0 10px 0 10px;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    height: 650px;
+}
+.top-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+.info{
+    margin-left: 50px;
+    color: white;
+    
+}
+.info h2{
+    font-size: 70px;
+    padding-top: 50px;
+    font-weight: 100;
+}
+.info p{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.my-pic img{
+    height: 400px;
+    width: 400px;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+
+.slack-id img{
+    width: 40px;
+    height: 40px;
+   
+}
+.slack-id{
+    display: inline-flex;
+    margin-top: 50px;
+}
+.slack-id h3{
+    padding: 10px 0 0 20px;
+    font-size: 20px;
+    
+}
+.personal-info{
+    text-align: center;   
+    font-size: 30px;
+    margin-top: -50px;
+    font-weight: 100;
+}
+.underline{
+    border-bottom: 3px solid palevioletred;
+    margin: 50px 20px 50px 20px;
+}
+.profile{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    padding-left: 100px;
+}
+.profile h3{
+    font-size: 24px;
+    font-weight: 100;
+    
+}
+.profile .underline2{
+    border-bottom: 1px solid palevioletred;
+    width: 130px;
+    padding-top: 10px;
+}
+footer{
+    padding: 50px 0 20px 0;
+    
+}
+.footer-form{   
+    background: #eee;
+    text-align: center;
+}
+.contact h2{
+    padding: 30px 0 20px 0;
+}
+input[type=text]{
+    padding-left: 20px;
+    border: 1px solid palevioletred;
+    color: #fff;
+    border-radius: 10px;
+    width: 15%;
+    height: 30px;
+}
+.contact button{
+    color: #fff;
+    background: palevioletred;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.contact button:hover{
+    background: #fff;
+    color: palevioletred;
+    transition: 0.2s ease-in;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 425px){
+    .info{
+        margin-left: 15px;
+    }
+    .info h2{
+        font-size: 30px;
+    }
+    .info p{
+        font-size: 12px;
+        font-weight: 100;
+        line-height: 15px;
+    }
+    .my-pic img{
+        height: 230px;
+        width: 150px;
+        margin: 100px 0 0 20px ;
+        
+        border-radius: 10px;
+    }
+    .top-bg{
+        height: 550px;
+    }
+    .personal-info{
+        font-size: 20px;
+    }
+    .profile{
+        grid-template-columns: 1fr 1fr;
+        padding-left: 20px;
+    }
+    .profile h3{
+        font-size: 18px;
+    }
+    .profile p{
+        font-size: 12px;
+    }
+    input[type=text]{
+        width: 50%;
+    }
+}
